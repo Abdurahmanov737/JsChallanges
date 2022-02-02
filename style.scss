@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#numbers-bottom {
+
+
+
+    .listing {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .evens,
+    .odds {
+
+        font-size: 24px;
+        padding-right: 10px;
+
+
+    }
+
+    .evens {
+        color: green;
+    }
+
+    .odds {
+        color: red;
+    }
+}
+
+#mult {
+
+    margin-top: 30px;
+    ;
+
+    #mult-bottom {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .myList {
+        padding-right: 25px;
+    }
+}
+
+#converter {
+    margin-top: 30px;
+
+    #converter-bottom {
+        margin-top: 10px;
+    }
+}
+
+#divisions {
+
+    margin-top: 30px;
+
+    #divisions-bottom {
+        margin-top: 10px;
+
+        .trueP {
+            color: green;
+        }
+
+        .falseP {
+            color: red;
+        }
+    }
+}
